@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books/components/Cards should render without crashing 1`] = `
+<Row
+  className="mt-4"
+  noGutters={false}
+>
+  <Col
+    className="d-flex align-items-stretch mb-4"
+    key="1"
+    lg={3}
+    md={6}
+    xs={12}
+  >
+    <Card
+      body={false}
+      className="flex-fill"
+    >
+      <CardBody>
+        <CardTitle>
+          Harry Potter and the Cursed Child
+        </CardTitle>
+      </CardBody>
+      <ListGroup
+        className="list-group-flush"
+      >
+        <ListGroupItem
+          active={false}
+          disabled={false}
+        >
+          Author: 
+          J. K. Rowling
+        </ListGroupItem>
+        <ListGroupItem
+          active={false}
+          disabled={false}
+        >
+          Pages: 
+          355
+        </ListGroupItem>
+        <ListGroupItem
+          active={false}
+          disabled={false}
+        >
+          Publication City: 
+          London
+        </ListGroupItem>
+        <ListGroupItem
+          active={false}
+          disabled={false}
+        >
+          Publication Country: 
+          United Kingdom
+        </ListGroupItem>
+        <ListGroupItem
+          active={false}
+          disabled={false}
+        >
+          Publication Year: 
+          2016
+        </ListGroupItem>
+      </ListGroup>
+    </Card>
+  </Col>
+</Row>
+`;

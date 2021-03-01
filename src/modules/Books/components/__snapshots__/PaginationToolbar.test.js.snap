@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books/components/PaginationToolbar should render without crashing 1`] = `
+<ForwardRef>
+  <First
+    disabled={false}
+    onClick={[Function]}
+  />
+  <Prev
+    disabled={false}
+    onClick={[Function]}
+  />
+  <PageItem
+    active={true}
+    activeLabel="(current)"
+    disabled={false}
+  >
+    Page: 
+    2
+    /
+    7
+  </PageItem>
+  <Next
+    disabled={false}
+    onClick={[Function]}
+  />
+  <Last
+    disabled={false}
+    onClick={[Function]}
+  />
+</ForwardRef>
+`;

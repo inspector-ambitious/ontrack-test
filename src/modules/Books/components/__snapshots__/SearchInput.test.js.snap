@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books/components/SearchInput should render without crashing 1`] = `
+<Row
+  className="mb-4 mt-4"
+  noGutters={false}
+>
+  <Col
+    lg={4}
+  >
+    <Form
+      inline={false}
+    >
+      <ForwardRef(InputGroup)>
+        <FormControl
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Search..."
+          type="search"
+        />
+        <Button
+          active={false}
+          className="ml-2"
+          disabled={false}
+          onClick={[Function]}
+          variant="primary"
+        >
+          Search
+        </Button>
+      </ForwardRef(InputGroup)>
+    </Form>
+  </Col>
+</Row>
+`;
