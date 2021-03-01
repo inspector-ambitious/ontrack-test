@@ -1,10 +1,10 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "./App";
+import UnexpectedError from "./UnexpectedError";
 
-describe("App", () => {
+describe("Books/components/UnexpectedError", () => {
   it("should render without crashing", () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<UnexpectedError />);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -1,10 +1,10 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "./App";
+import Loader from "./Loader";
 
-describe("App", () => {
+describe("Books/components/Loader", () => {
   it("should render without crashing", () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Loader />);
     expect(wrapper).toMatchSnapshot();
   });
 });

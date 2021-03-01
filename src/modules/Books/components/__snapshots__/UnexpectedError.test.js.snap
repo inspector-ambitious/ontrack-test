@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books/components/UnexpectedError should render without crashing 1`] = `
+<p
+  className="mt-2 ml-4"
+>
+  An unexpected error occured. Please try again later...
+</p>
+`;
